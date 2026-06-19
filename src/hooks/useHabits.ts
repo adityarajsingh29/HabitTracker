@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react';
 import type { Habit, HabitInput } from '../types';
 import { formatDateString } from '../lib/dateUtils';
-import { isSameDay, parseISO } from 'date-fns';
 
 export function useHabits() {
   const [habits, setHabits] = useState<Habit[]>(() => {

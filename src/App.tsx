@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Plus, ChevronLeft, ChevronRight } from 'lucide-react';
 import { useHabits } from './hooks/useHabits';
 import { HabitCard } from './components/habits/HabitCard';
